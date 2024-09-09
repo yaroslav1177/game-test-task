@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
   const icons = [
-    'icons/cherva.png',
-    'icons/buba.png',
-    'icons/pika.png',
-    'icons/kresta.png'
+    'src/icons/cherva.png',
+    'src/icons/buba.png',
+    'src/icons/pika.png',
+    'src/icons/kresta.png'
   ];
 
   const gridItems = document.querySelectorAll('.grid-item');
