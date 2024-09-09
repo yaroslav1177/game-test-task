@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.block {
+  width: 600px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  gap: 0;  
+  background-color: lightblue;
+  border: 1px solid #000;
+}
+
+.grid-item {
+  position: relative;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.grid-item img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.grid-item.highlight {
+  background-color: pink;
+}
+
+.grid-item img.hidden {
+  display: none;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
